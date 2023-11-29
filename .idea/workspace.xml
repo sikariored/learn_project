@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37f1762-3806-4cb0-a4f4-307e067b66df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/accounts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/_form_edit.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/_form_new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accounts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/accounts_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/account.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/account.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +56,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RailsCreateViewFileDialog.DEFAULT_TEMPLATE": "ERB File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -156,7 +173,9 @@
       <workItem from="1701238899836" duration="6588000" />
       <workItem from="1701251029287" duration="104000" />
       <workItem from="1701253023086" duration="99000" />
-      <workItem from="1701253124075" duration="456000" />
+      <workItem from="1701253124075" duration="5209000" />
+      <workItem from="1701258932777" duration="27000" />
+      <workItem from="1701258962121" duration="8854000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,16 @@
+<h1>Список аккаунтов</h1>
+<div class="accounts-list-wrapper">
+  <% if @accounts.any? %>
+    <ul class="accounts-ul">
+      <% @accounts.each do |account| %>
+        <li class="accounts-li">
+          <span class="accounts-list-info"><%= account.full_name %> :: <%= account.login %></span> |
+          <%= link_to 'Инфо', account_path(account) %> |
+          <%= link_to 'Редактировать', edit_account_path(account)%>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>Аккаунты не найдены :(</p>
+  <% end %>
+</div>

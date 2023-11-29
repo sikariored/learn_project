@@ -1,0 +1,30 @@
+<%= form_with model: @account do |f| %>
+  <div class="edit-account-field">
+    <label for="account_full_name">Имя:</label>
+    <%= f.text_field :full_name, required: true, id: "account_full_name" %>
+  </div>
+
+  <div class="edit-account-field">
+    <label for="account_login">Логин:</label>
+    <%= f.text_field :login, required: true,  id: "account_login" %>
+  </div>
+
+  <div class="edit-account-field">
+    <label for="account_password">Пароль:</label>
+    <%= f.password_field :password, required: true, id: "account_password" %>
+  </div>
+
+  <div class="edit-account-field">
+    <label for="account_role">Должность:</label>
+    <%= f.text_field :role, required: true, id: "account_role" %>
+  </div>
+
+  <div class="edit-account-field">
+    <label for="account_department">Отдел:</label>
+    <%= f.text_field :department, required: true,  id: "account_department" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Создать аккаунт' %>
+  </div>
+<% end %>

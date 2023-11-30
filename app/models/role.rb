@@ -1,3 +1,3 @@
 class Role < ApplicationRecord
-  validates :rolename, presence:true
+  validates :role_name, presence:true
 end

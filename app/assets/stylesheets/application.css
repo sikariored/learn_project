@@ -30,20 +30,19 @@
     width: 500px;
 }
 
-.edit-account-field input {
-    width: 100%;
-}
-
-.edit-account-field label {
+.edit-account-field, .edit-role-field input {
     width: fit-content;
 }
 
-.edit-account-field {
+.edit-account-field, .edit-role-field label {
+    width: fit-content;
+}
+
+.edit-account-field, .edit-role-field {
     display: flex;
     margin-bottom: 10px;
 }
 
 .actions {
-    display: flex;
-    flex-direction: column;
+    width: fit-content;
 }

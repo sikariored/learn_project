@@ -21,8 +21,9 @@
     </div>
 
     <div class="edit-account-field">
-      <label for="account_role">Должность:</label>
-      <%= f.text_field :role, required: true, id: "account_role" %>
+      <label for="account_role">Роль:</label>
+      <%#= f.text_field :role, required: true, id: "account_role" %>
+      <%= f.select :role, Role.pluck(:role_name), {}, { prompt: 'Выберите роль' } %>
     </div>
 
     <div class="edit-account-field">

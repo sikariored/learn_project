@@ -20,11 +20,25 @@ class AccountsController < ApplicationController
     end
   end
   def edit
-    @account = Account.find_by id: params[:id]
+    @account = Account.find(params[:id])
   end
 
   def update
+    @account = Account.find(params[:id])
+    if @account.update account_params
+      redirect_to accounts_path
+    else
+      render :edit
+    end
+  end
 
+  def destroy
+    @account = Account.find(params[:id])
+    if @account.destroy
+      redirect_to accounts_path
+    else
+      render :index
+    end
   end
   private
 

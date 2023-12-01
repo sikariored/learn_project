@@ -5,6 +5,7 @@ class RolesController < ApplicationController
 
   def show
     @role = Role.find(params[:id])
+    @role_accounts = @role.accounts
   end
 
   def new

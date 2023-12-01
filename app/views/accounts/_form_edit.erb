@@ -17,13 +17,14 @@
 
     <div class="edit-account-field">
       <label for="account_password">Новый пароль:</label>
-      <%= f.password_field :password, id: "account_password" %>
+      <%= f.password_field :password, value: @account.password, id: "account_password" %>
     </div>
 
     <div class="edit-account-field">
       <label for="account_role">Роль:</label>
-      <%#= f.text_field :role, required: true, id: "account_role" %>
-      <%= f.select :role, Role.pluck(:role_name), {}, { prompt: 'Выберите роль' } %>
+      <!--    <%#= f.text_field :role, required: true, id: "account_role" %> Ввод вручную-->
+      <!--    <%#= f.collection_select :role_ids, Role.all, :id, :role_name, {}, { multiple: true, prompt: 'Выберите роль' } %> Выбор из списка-->
+      <%= f.collection_check_boxes :role_ids, Role.all, :id, :role_name %>
     </div>
 
     <div class="edit-account-field">

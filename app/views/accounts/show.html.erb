@@ -4,7 +4,12 @@
   <p class="account-info-raw">Имя: <%= @account.full_name %></p>
   <p class="account-info-raw">Логин: <%= @account.login %></p>
   <p class="account-info-raw">Пароль: <%= @account.password %></p>
-  <p class="account-info-raw">Роль: <%= @account.role %></p>
+  <p>Роли аккаунта:</p>
+  <ul>
+    <% @account.roles.each do |role| %>
+      <li><%= role.role_name %></li>
+    <% end %>
+  </ul>
   <p class="account-info-raw">Отдел: <%= @account.department %></p>
 </div>
 

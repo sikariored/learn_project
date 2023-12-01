@@ -5,35 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37f1762-3806-4cb0-a4f4-307e067b66df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/roles/_form_edit.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/roles/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/roles/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20231130190834_change_roles_column_name.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0edc20af-0865-4a1a-90ea-904e29b795c6/storage_v2/_src_/database/learn_project_development.mnrnJA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learn_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/roles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/roles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/account.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/account.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/role.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/role.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/accounts/_form_edit.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/_form_edit.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/accounts/_form_new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/_form_new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/accounts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/accounts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/roles/_form_new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/roles/_form_new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/roles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/roles/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/roles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/roles/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20231130122621_create_roles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20231130122621_create_roles.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/roles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/roles/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20231130190834_change_roles_column_name.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,15 +62,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/alexander/Projects/RailsProjects/learn_project/app/views/roles",
+    "last_opened_file_path": "//wsl$/Ubuntu-22.04/usr/share/rvm/bin/rvm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
     "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -201,7 +193,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f37f1762-3806-4cb0-a4f4-307e067b66df" name="Changes" comment="" />
@@ -218,11 +210,26 @@
       <workItem from="1701369552699" duration="2991000" />
       <workItem from="1701380900425" duration="7000" />
       <workItem from="1701380917990" duration="5583000" />
+      <workItem from="1701414299686" duration="629000" />
+      <workItem from="1701415063218" duration="5990000" />
+      <workItem from="1701428613931" duration="8000" />
+      <workItem from="1701431593939" duration="3147000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

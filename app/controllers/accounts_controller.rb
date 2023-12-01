@@ -14,11 +14,13 @@ class AccountsController < ApplicationController
   def create
     @account = Account.new account_params
     if @account.save
+      @account.roles = Role.find(params[:account][:role_ids]) if params[:account][:role_ids].present?
       redirect_to accounts_path
     else
       render :new
     end
   end
+
   def edit
     @account = Account.find(params[:id])
   end
@@ -26,6 +28,7 @@ class AccountsController < ApplicationController
   def update
     @account = Account.find(params[:id])
     if @account.update account_params
+      @account.roles = Role.find(params[:account][:role_ids]) if params[:account][:role_ids].present?
       redirect_to accounts_path
     else
       render :edit
@@ -40,9 +43,10 @@ class AccountsController < ApplicationController
       render :index
     end
   end
+
   private
 
   def account_params
-    params.require(:account).permit(:full_name, :login, :password, :role, :department)
+    params.require(:account).permit(:full_name, :login, :password, :role, :department, role_ids: [])
   end
 end

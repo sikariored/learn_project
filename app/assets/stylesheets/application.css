@@ -46,3 +46,12 @@
 .actions {
     width: fit-content;
 }
+
+.role-checkbox-list {
+    display: flex;
+    font-size: 14px;
+    width: 200px;
+    height: 100px;
+    flex-direction: column;
+    overflow-y: scroll;
+}

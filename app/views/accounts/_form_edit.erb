@@ -24,7 +24,15 @@
       <label for="account_role">Роль:</label>
       <!--    <%#= f.text_field :role, required: true, id: "account_role" %> Ввод вручную-->
       <!--    <%#= f.collection_select :role_ids, Role.all, :id, :role_name, {}, { multiple: true, prompt: 'Выберите роль' } %> Выбор из списка-->
-      <%= f.collection_check_boxes :role_ids, Role.all, :id, :role_name %>
+      <div class="role-checkbox-list">
+        <% Role.all.each do |role| %>
+          <div class="role-checkbox">
+            <%= f.check_box :role_ids, { multiple: true }, role.id, nil %>
+            <%= label_tag "account_role_#{role.id}", role.role_name %>
+          </div>
+        <% end %>
+      </div>
+      <!--    <%#= f.collection_check_boxes :role_ids, Role.all, :id, :role_name %> Горизонтальный список из чекбоксов -->
     </div>
 
     <div class="edit-account-field">
